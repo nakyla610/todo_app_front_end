@@ -12,6 +12,8 @@ border-radius:30px;
 img{
     border-radius: 300px;
     width: 200px;
+    position: absolute;
+    z-index: 100;
 }
 li{
     border:5px solid;
@@ -20,8 +22,10 @@ li{
     border-radius: 15px;
 }
 
-.pomodorosestimate {
-    border-radius: 30px;
-    background-color:pink;
-    font-family: sans-serif;
+.pomodorosestimate{border-radius:10px;
+    border:10px dotted red;
+    color: blue;
+}
+.add-todo-button{
+    box-shadow: 2px 2px 1px gray;
 }
