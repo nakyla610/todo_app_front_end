@@ -1,6 +1,27 @@
 body{color:#000080;
 background-color: aqua;
 font-family:georgia, serif;
+display: inline-block;
 }
 h1{color:#8b008b;
+border:10px dotted red;
+padding:20px;
+margin:50px;
+border-radius:30px;
+}
+img{
+    border-radius: 300px;
+    width: 200px;
+}
+li{
+    border:5px solid;
+    padding:10px;
+    margin:10px;
+    border-radius: 15px;
+}
+
+.pomodorosestimate {
+    border-radius: 30px;
+    background-color:pink;
+    font-family: sans-serif;
 }
